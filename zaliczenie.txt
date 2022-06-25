@@ -1,0 +1,33 @@
+2.  
+
+git status 
+
+git add* 
+
+git commit -m 
+
+git push  
+
+ 
+
+3. 
+
+SELECT 
+* 
+from COFFESHOP 
+where PRODUCT in (‘LATTE’ , ‘LONG BLACK’) 
+and CITY not in (‘PHILADELPHIA’) 
+
+ 
+
+SELECT 
+* 
+from COFFESHOP 
+where CUSTOMER ref in (‘WILLIAM THOMPSON_86’ , ’MARK TAYLOR_113’) 
+
+ 
+
+SELECT 
+DISTINCT CITY 
+from COFFESHOP 
+where PRODUCT in (FLAT WHITE’ , ‘CAPPUCCINO’) 
